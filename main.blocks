@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="+LRu!bb:Z|$S]1i;EUg`" x="0" y="0"><field name="NAME">Button.B</field><comment>Both eyes on the smiley face blink (turn off) 4 times when the B button is pressed. After blinking the smiley face has both eyes open.</comment><statement name="HANDLER"><block type="controls_repeat_ext" id="]e),7hZQ^X2T88?zGz#="><comment>blinks the face's right eye (left to the user) 4 times</comment><value name="TIMES"><shadow type="math_number" id="0`pDbT,otw[$~)k51Tgr"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="m-%nuW:Zp6zt8-eNWeS:"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="Wm27,!XuSoa)=[x.F7Q@"><value name="pause"><shadow type="math_number" id="fSmVNK_uGAUogElJ6#AC"><field name="NUM">100</field></shadow></value><next><block type="device_show_leds" id="`O#Q4iQ*gGDo8=(.csei"><field name="LEDS">`
+        . . . # . 
+        . . . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="9X6TEIJ~f)PkYC1yAC0("><value name="pause"><shadow type="math_number" id="Er,-8}qmsRgW*n?Lf?oP"><field name="NUM">100</field></shadow></value></block></next></block></next></block></next></block></statement><next><block type="controls_repeat_ext" id="Q^3}(]ZtAH7-a.@b4DxK"><comment>blinks the face's left eye (right to the user) 4 times</comment><value name="TIMES"><shadow type="math_number" id="Ozjef#T}_n[tw;|CWQ#r"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="$B{NoPi$Sn*x2}7Sabvp"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="NuTIA?:Q*5,yPo!mj?[I"><value name="pause"><shadow type="math_number" id="lT(|37+.qNeW{U-.)Cq?"><field name="NUM">100</field></shadow></value><next><block type="device_show_leds" id="|7c?)H}$A{J23y8`k#cj"><field name="LEDS">`
+        . # . . . 
+        . # . . . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="H%Intm2.yiMsYQQTaoyz"><value name="pause"><shadow type="math_number" id="Hhon6)Ek2~-B}j@uEegz"><field name="NUM">100</field></shadow></value></block></next></block></next></block></next></block></statement></block></next></block></statement></block></xml>
